@@ -1,0 +1,26 @@
+{
+  "name": "Aimbot",
+  "version": "0.0.1",
+  "description": "A multipurpose bot.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "request": "^2.88.0",
+    "node-fetch": "^2.3.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/aimbot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discord.js",
+    "discord bot"
+  ]
+}
