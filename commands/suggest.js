@@ -14,6 +14,7 @@ module.exports = {
         .addField("Suggestion:", suggestion)
       .setColor(0x0cbaff);
       suggestions.send(emb);
+      msg.reply('Suggestion added!');
     }
     catch(e) {
       msg.reply(e.message);
